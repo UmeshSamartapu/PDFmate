@@ -6,6 +6,10 @@ It allows users to convert, organize, edit, optimize, and secure PDF files with 
 🔗 **Live Website:**  
 👉 https://umeshsamartapu.github.io/PDFmate/
 
+
+## 📸 Screenshot
+![PDFMate Homepage](screenshots/homepage.png)
+
 ---
 
 ## 🚀 Features
