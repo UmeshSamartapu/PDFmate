@@ -8,7 +8,7 @@ It allows users to convert, organize, edit, optimize, and secure PDF files with 
 
 
 ## 📸 Screenshot
-![PDFMate Homepage](screenshots/PDFmate.png)
+![PDFMate Homepage](screenshot/PDFmate.png)
 
 ---
 
