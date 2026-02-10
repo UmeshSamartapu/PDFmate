@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>PDFMate - All PDF Tools in One Place</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: #1e88e5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+        }
+
+        header p {
+            margin-top: 8px;
+            opacity: 0.9;
+        }
+
+        nav {
+            background: #1565c0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 12px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            margin-bottom: 15px;
+            color: #1e88e5;
+        }
+
+        .tools {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+
+        .tool-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .tool-card h3 {
+            font-size: 16px;
+            margin-bottom: 6px;
+        }
+
+        footer {
+            background: #1e88e5;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PDFMate</h1>
+        <p>All PDF Tools You’ll Ever Need — Simple, Fast & Secure</p>
+    </header>
+
+    <nav>
+        <a href="#">Convert PDF</a>
+        <a href="#">Organize PDF</a>
+        <a href="#">Edit PDF</a>
+        <a href="#">Optimize PDF</a>
+        <a href="#">Secure PDF</a>
+        <a href="#">Utilities</a>
+    </nav>
+
+    <main>
+
+        <!-- Core Tools -->
+        <section class="section">
+            <h2>Core PDF Tools</h2>
+            <div class="tools">
+                <div class="tool-card"><h3>Merge PDF</h3></div>
+                <div class="tool-card"><h3>Split PDF</h3></div>
+                <div class="tool-card"><h3>Compress PDF</h3></div>
+                <div class="tool-card"><h3>Convert PDF</h3></div>
+                <div class="tool-card"><h3>All PDF Tools</h3></div>
+            </div>
+        </section>
+
+        <!-- Convert to PDF -->
+        <section class="section">
+            <h2>Convert To PDF</h2>
+            <div class="tools">
+                <div class="tool-card"><h3>JPG to PDF</h3></div>
+                <div class="tool-card"><h3>Word to PDF</h3></div>
+                <div class="tool-card"><h3>PowerPoint to PDF</h3></div>
+                <div class="tool-card"><h3>Excel to PDF</h3></div>
+                <div class="tool-card"><h3>HTML to PDF</h3></div>
+            </div>
+        </section>
+
+        <!-- Convert from PDF -->
+        <section class="section">
+            <h2>Convert From PDF</h2>
+            <div class="tools">
+                <div class="tool-card"><h3>PDF to JPG</h3></div>
+                <div class="tool-card"><h3>PDF to Word</h3></div>
+                <div class="tool-card"><h3>PDF to PowerPoint</h3></div>
+                <div class="tool-card"><h3>PDF to Excel</h3></div>
+                <div class="tool-card"><h3>PDF to PDF/A</h3></div>
+            </div>
+        </section>
+
+        <!-- Organize -->
+        <section class="section">
+            <h2>Organize PDF</h2>
+            <div class="tools">
+                <div class="tool-card"><h3>Merge PDF</h3></div>
+                <div class="tool-card"><h3>Split PDF</h3></div>
+                <div class="tool-card"><h3>Remove Pages</h3></div>
+                <div class="tool-card"><h3>Extract Pages</h3></div>
+                <div class="tool-card"><h3>Rearrange Pages</h3></div>
+                <div class="tool-card"><h3>Scan to PDF</h3></div>
+            </div>
+        </section>
+
+        <!-- Optimize -->
+        <section class="section">
+            <h2>Optimize & Enhance</h2>
+            <div class="tools">
+                <div class="tool-card"><h3>Compress PDF</h3></div>
+                <div class="tool-card"><h3>Optimize PDF</h3></div>
+                <div class="tool-card"><h3>Repair PDF</h3></div>
+                <div class="tool-card"><h3>OCR PDF</h3></div>
+            </div>
+        </section>
+
+        <!-- Edit -->
+        <section class="section">
+            <h2>Edit PDF</h2>
+            <div class="tools">
+                <div class="tool-card"><h3>Edit Text</h3></div>
+                <div class="tool-card"><h3>Rotate PDF</h3></div>
+                <div class="tool-card"><h3>Crop PDF</h3></div>
+                <div class="tool-card"><h3>Add Page Numbers</h3></div>
+                <div class="tool-card"><h3>Add Watermark</h3></div>
+            </div>
+        </section>
+
+        <!-- Security -->
+        <section class="section">
+            <h2>PDF Security & Protection</h2>
+            <div class="tools">
+                <div class="tool-card"><h3>Unlock PDF</h3></div>
+                <div class="tool-card"><h3>Protect PDF</h3></div>
+                <div class="tool-card"><h3>Sign PDF</h3></div>
+                <div class="tool-card"><h3>Redact PDF</h3></div>
+                <div class="tool-card"><h3>Compare PDF</h3></div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 PDFMate — All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
